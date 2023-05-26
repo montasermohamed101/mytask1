@@ -24,13 +24,13 @@ class F041 extends StatelessWidget {
                       //This table row is for the table header which is static
                       TableRow(children: [
                         TitleText(
-                          "Date &\n Time",
+                          "Date &\nTime",
                         ),
                         TitleText(
                           "Progress Notes \n",
                         ),
                         TitleText(
-                          "Signature  \n& ID",
+                          "Signature\n& ID",
                         ),
 
 
