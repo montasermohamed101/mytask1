@@ -32,8 +32,6 @@ class F041 extends StatelessWidget {
                         TitleText(
                           "Signature\n& ID",
                         ),
-
-
                       ]),
                       buildRowWidget(
                           dateTime: f041Controller.now,
@@ -182,7 +180,7 @@ class F041 extends StatelessWidget {
   }
   Widget TitleText(String title){
     return  Container(
-      padding: const EdgeInsets.symmetric(vertical: 20),
+      padding: const EdgeInsets.symmetric(vertical: 10),
       color: Colors.teal.shade400,
       child: Text(
         title,
