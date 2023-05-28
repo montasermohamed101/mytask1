@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:mytask1/test_screen.dart';
+import 'package:mytask1/view/pages/f035/f035.dart';
 import 'package:mytask1/view/pages/f041/f041.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:responsive_framework/utils/scroll_behavior.dart';
+
+import 'Home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,6 +28,7 @@ class MyApp extends StatelessWidget {
               const ResponsiveBreakpoint.resize(800, name: TABLET),
               const ResponsiveBreakpoint.resize(1000, name: TABLET),
               const ResponsiveBreakpoint.resize(1200, name: DESKTOP),
+
             ],
             breakpointsLandscape: [
               const ResponsiveBreakpoint.resize(560, name: MOBILE),
@@ -39,7 +44,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home:F041(),
+        home:F035(),
       ),
     );
   }
