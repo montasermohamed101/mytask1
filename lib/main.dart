@@ -1,12 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mytask1/test_screen.dart';
 import 'package:mytask1/view/pages/f035/f035.dart';
-import 'package:mytask1/view/pages/f041/f041.dart';
+import 'package:mytask1/view/pages/f036/f036.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:responsive_framework/utils/scroll_behavior.dart';
 
-import 'Home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -44,7 +42,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home:F035(),
+        home:F036(),
       ),
     );
   }

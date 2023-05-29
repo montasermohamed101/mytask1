@@ -127,4 +127,11 @@ class F035Controller extends GetxController {
   TextEditingController scoreReAssessmentController2 = TextEditingController();
   TextEditingController scoreReAssessmentController3 = TextEditingController();
 
+
+  TextEditingController nameController = TextEditingController();
+  TextEditingController employeeController = TextEditingController();
+  TextEditingController signatureController = TextEditingController();
+
+
+
 }

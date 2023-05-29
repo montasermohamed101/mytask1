@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mytask1/controller/f035_controller/f035_controller.dart';
 
+import '../../widgets/my_text_form_field.dart';
+
 class F035 extends StatelessWidget {
 
   var controller = Get.put(F035Controller());
@@ -149,22 +151,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Eating'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.eatingAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.eatingReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.eatingReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.eatingReAssessmentController3
                           ),
                         ),
@@ -180,22 +182,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Bathing'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bathingAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bathingReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bathingReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bathingReAssessmentController3
                           ),
                         ),
@@ -211,22 +213,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Grooming'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.groomingAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.groomingReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.groomingReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.groomingReAssessmentController3
                           ),
                         ),
@@ -242,22 +244,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Dressing Upper body'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.upperAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.upperReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.upperReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.upperReAssessmentController3
                           ),
                         ),
@@ -273,22 +275,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Dressing Lower body'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.lowerAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.lowerReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.lowerReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.lowerReAssessmentController3
                           ),
                         ),
@@ -304,22 +306,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Toileting'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.toiletingAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.toiletingReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.toiletingReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.toiletingReAssessmentController3
                           ),
                         ),
@@ -356,22 +358,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Bladder Management'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bladderAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bladderReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bladderReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bladderReAssessmentController3
                           ),
                         ),
@@ -387,22 +389,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Bowel Management'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bowelAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bowelReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bowelReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bowelReAssessmentController3
                           ),
                         ),
@@ -439,22 +441,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Transfers Bed to chair'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bedAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bedReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bedReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.bedReAssessmentController3
                           ),
                         ),
@@ -470,22 +472,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Transfers: toilet'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.toiletAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.toiletReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.toiletReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.toiletReAssessmentController3
                           ),
                         ),
@@ -502,22 +504,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Transfers: Tub/shower'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.tubAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.tubReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.tubReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.tubReAssessmentController3
                           ),
                         ),
@@ -554,22 +556,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Locomotion: Walk or Wheelchair'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.walkAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.walkReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.walkReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.walkReAssessmentController3
                           ),
                         ),
@@ -586,22 +588,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Locomotion: Stairs'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.stairsAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.stairsReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.stairsReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.stairsReAssessmentController3
                           ),
                         ),
@@ -639,22 +641,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Comprehension'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.comprehensionAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.comprehensionReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.comprehensionReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.comprehensionReAssessmentController3
                           ),
                         ),
@@ -671,22 +673,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Expression'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.expressionAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.expressionReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.expressionReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.expressionReAssessmentController3
                           ),
                         ),
@@ -725,22 +727,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Social Interaction'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.socialAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.socialReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.socialReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.socialReAssessmentController3
                           ),
                         ),
@@ -757,22 +759,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Problem Solving'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.solvingAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.solvingReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.solvingReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.solvingReAssessmentController3
                           ),
                         ),
@@ -789,22 +791,22 @@ class F035 extends StatelessWidget {
                           child: SelfText(title: 'Memory'),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.memoryAdmissionController
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.memoryReAssessmentController1
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.memoryReAssessmentController2
                           ),
                         ),
                         TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.memoryReAssessmentController3
                           ),
                         ),
@@ -842,22 +844,22 @@ class F035 extends StatelessWidget {
                             ),
                           ),
                           TableCell(
-                            child: myTextFormFieldWidget(
+                            child: MyTextFormField(
                                 controller: controller.scoreAdmissionController
                             ),
                           ),
                          TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.scoreAdmissionController
                           ),
                         ),
                          TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.scoreAdmissionController
                           ),
                         ),
                          TableCell(
-                          child: myTextFormFieldWidget(
+                          child: MyTextFormField(
                               controller: controller.scoreAdmissionController
                           ),
                         ),
@@ -1156,9 +1158,42 @@ class F035 extends StatelessWidget {
 
                   ],
                 ),
-                //TODO: Modified  table
-                //Modified Dependence'
-
+                //TODO: Signature  table
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Container(
+                    padding: EdgeInsets.all(20),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Text('Therapist Name:'),
+                        SizedBox(
+                          width: 200,
+                          child: MyTextFormField(
+                            controller: controller.nameController,
+                            hintText: '______________________________',
+                          ),
+                        ),
+                        Text('Employee ID:'),
+                        SizedBox(
+                          width: 200,
+                          child: MyTextFormField(
+                            controller: controller.employeeController,
+                            hintText: '______________________________',
+                          ),
+                        ),
+                        Text('Signature:'),
+                        SizedBox(
+                          width: 200,
+                          child: MyTextFormField(
+                            controller: controller.signatureController,
+                            hintText: '______________________________',
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                )
 
               ],
             ),
@@ -1212,12 +1247,12 @@ class F035 extends StatelessWidget {
   Widget singleText({required String text}){
     return Container(
       padding: const EdgeInsets.symmetric(vertical: 8),
-      color: Colors.teal.shade400,
       child:  TitleText(
           title: text,
           textAlign: TextAlign.center),
     );
   }
+
   Widget TitleText({required String title, required TextAlign textAlign}) {
     return Text(
       title,
@@ -1246,6 +1281,7 @@ class F035 extends StatelessWidget {
       ),
     );
   }
+
   Widget numberText({required String title,}) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 8.0,vertical: 8.0),
@@ -1262,16 +1298,5 @@ class F035 extends StatelessWidget {
     );
   }
 
-  TextFormField myTextFormFieldWidget({
-    required TextEditingController controller,
-  }) {
-   return TextFormField(
-     decoration: const InputDecoration(
-       contentPadding: EdgeInsets.symmetric(vertical: 10),
-       isDense: true,
-       border: InputBorder.none,
-     ),
-   );
 
-  }
 }
