@@ -3,6 +3,9 @@ import 'package:get/get.dart';
 
 class F041Controller extends GetxController{
   DateTime now = DateTime.now();
+  TextEditingController topController1 = TextEditingController();
+
+
   TextEditingController text_Controller1 = TextEditingController();
   TextEditingController text_Controller2 = TextEditingController();
   TextEditingController text_Controller3 = TextEditingController();

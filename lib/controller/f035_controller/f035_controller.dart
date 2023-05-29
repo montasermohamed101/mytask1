@@ -3,6 +3,8 @@ import 'package:get/get.dart';
 
 class F035Controller extends GetxController {
 
+  TextEditingController labelController = TextEditingController();
+
   //Todo:Self-Care
   //Eating
   TextEditingController eatingAdmissionController = TextEditingController();

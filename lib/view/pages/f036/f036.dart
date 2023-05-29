@@ -11,11 +11,53 @@ class F036 extends StatelessWidget {
     return GetBuilder<F036Controller>(
         builder: (_) => Scaffold(
               body: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                padding: const EdgeInsets.symmetric(horizontal: 20.0,vertical: 20),
                 child: SingleChildScrollView(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
+                      Row(
+                        children: [
+                          Expanded(
+                            flex: 30,
+                            child: Image.asset('assets/ic_app.jpg',
+                            height: 70,
+                            ),
+                          ),
+                          Expanded(
+                            flex: 50,
+                            child: SizedBox(),
+                          ),
+                          Expanded(
+                            flex: 20,
+                            child: Container(
+                              width: 200.0,
+                              height: 100.0,
+                              decoration: BoxDecoration(
+                                border: Border.all(
+                                  color: Colors.grey,
+                                  width: 2.0,
+                                ),
+                                borderRadius: BorderRadius.circular(10.0),
+                              ),
+                              child: MyTextFormField(
+                                controller: controller.labelController,
+                                hintText: '       PATIENT LABEL',
+                              ),
+                              // child: const Align(
+                              //   alignment: Alignment.topCenter,
+                              //   child: Text(
+                              //     'PATIENT LABEL',
+                              //     style: TextStyle(
+                              //       fontSize: 15.0,
+                              //       fontWeight: FontWeight.normal,
+                              //     ),
+                              //   ),
+                              // ),
+                            ),
+                          )
+                        ],
+                      ),
                       Center(
                         child: TitleText(
                             title: 'BERG BALANCE SCALE (BBS)', fontSize: 30),
@@ -39,7 +81,7 @@ class F036 extends StatelessWidget {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          SizedBox(),
+                          const SizedBox(),
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 30),
                             child: TitleText(title: 'Score (0-4)',fontSize: 20),

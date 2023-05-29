@@ -5,6 +5,8 @@ import 'package:get/get.dart';
 class F036Controller extends GetxController{
 
 
+  TextEditingController labelController = TextEditingController();
+
   TextEditingController floorController = TextEditingController();
 
   TextEditingController standingController = TextEditingController();
