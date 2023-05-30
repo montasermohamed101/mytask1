@@ -296,13 +296,13 @@ class F038Controller extends GetxController{
   TextEditingController purulentController7 = TextEditingController();
 
   // Todo : Odor
-  TextEditingController OdorController1 = TextEditingController();
-  TextEditingController OdorController2 = TextEditingController();
-  TextEditingController OdorController3 = TextEditingController();
-  TextEditingController OdorController4 = TextEditingController();
-  TextEditingController OdorController5 = TextEditingController();
-  TextEditingController OdorController6 = TextEditingController();
-  TextEditingController OdorController7 = TextEditingController();
+  TextEditingController odorController1 = TextEditingController();
+  TextEditingController odorController2 = TextEditingController();
+  TextEditingController odorController3 = TextEditingController();
+  TextEditingController odorController4 = TextEditingController();
+  TextEditingController odorController5 = TextEditingController();
+  TextEditingController odorController6 = TextEditingController();
+  TextEditingController odorController7 = TextEditingController();
 
 
   // Todo : fill The room

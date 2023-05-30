@@ -46,22 +46,12 @@ class F035 extends StatelessWidget {
                           ),
                           child: MyTextFormField(
                             controller: controller.labelController,
-                            hintText: '             place Patient Label',
+                            hintText: 'place Patient Label',
                             hintStyle: TextStyle(
                               fontSize: 10,
 
                             ),
                           ),
-                          // child: const Align(
-                          //   alignment: Alignment.topCenter,
-                          //   child: Text(
-                          //     'PATIENT LABEL',
-                          //     style: TextStyle(
-                          //       fontSize: 15.0,
-                          //       fontWeight: FontWeight.normal,
-                          //     ),
-                          //   ),
-                          // ),
                         ),
                       )
                     ],
