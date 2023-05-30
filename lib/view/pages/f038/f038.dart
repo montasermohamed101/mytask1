@@ -2850,18 +2850,20 @@ class F038 extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    const SizedBox(),
-                    Column(
-                      children: [
-                        MyTitleText(
-                          title: 'F038-THHC Wound Care Dressing Documentation',
-                          color: Colors.black,
-                        ),
-                        MyTitleText(
-                          title: 'THHC-030 Wound Care Management at Home Health Care',
-                          color: Colors.black,
-                        ),
-                      ],
+                   Expanded(child: SizedBox()),
+                    Expanded(
+                      child: Column(
+                        children: [
+                          MyTitleText(
+                            title: 'F038-THHC Wound Care Dressing Documentation',
+                            color: Colors.black,
+                          ),
+                          MyTitleText(
+                            title: 'THHC-030 Wound Care Management at Home Health Care',
+                            color: Colors.black,
+                          ),
+                        ],
+                      ),
                     ),
 
                   ],
