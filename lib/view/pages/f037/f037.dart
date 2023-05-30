@@ -4,13 +4,14 @@ import 'package:mytask1/controller/f037_controller/f037_controller.dart';
 import 'package:mytask1/view/widgets/my_text_form_field.dart';
 
 import '../../widgets/my_color_title/my_color_title.dart';
+import '../../widgets/my_title_text.dart';
 
 class F037 extends StatelessWidget {
 
   var controller = Get.put(F037Controller());
   @override
   Widget build(BuildContext context) {
-    var x = MediaQuery.of(context).size.width;
+    var width = MediaQuery.of(context).size.width;
 
     return  GetBuilder<F037Controller>(builder: (_) =>
         Scaffold(
@@ -24,14 +25,11 @@ class F037 extends StatelessWidget {
                   Image.asset('assets/ic_app.jpg',
                   height: 50,
                   ),
-                  const Align(
+                   Align(
                     alignment: Alignment.center,
-                    child: Text('Temperature Monitoring Chart for Medication Transportation',
-                    style: TextStyle(
+                    child:MyTitleText(title:'Temperature Monitoring Chart for Medication Transportation',
                       color: Colors.grey,
-                      fontSize: 17
-                    ),
-                    ),
+                    )
                   ),
                   const SizedBox(
                     height: 20,
@@ -46,7 +44,7 @@ class F037 extends StatelessWidget {
                         children: [
                           const Text('Nurse Name:'),
                           SizedBox(
-                            width: x * 0.3,
+                            width: width * 0.3,
                             child: MyTextFormField(
                               controller: controller.nurseNameController,
                               hintText: '__________________________________________',
@@ -59,7 +57,7 @@ class F037 extends StatelessWidget {
                           ),
                           const Text('Badge No:'),
                           SizedBox(
-                            width: x * 0.3,
+                            width: width * 0.3,
                             child: MyTextFormField(
                               controller: controller.badgeNoController,
                               hintText: '______________________________',
@@ -80,14 +78,14 @@ class F037 extends StatelessWidget {
                     color: Colors.teal.shade400,
                     child: Table(
                       columnWidths: {
-                        0: FlexColumnWidth(x * 0.5),
-                        1: FlexColumnWidth(x * 0.8),
-                        2: FlexColumnWidth(x * 0.5),
-                        3: FlexColumnWidth(x * 0.5),
-                        4: FlexColumnWidth(x * 0.5),
-                        5: FlexColumnWidth(x * 0.5),
-                        6: FlexColumnWidth(x * 0.5),
-                        7: FlexColumnWidth(x * 0.8),
+                        0: FlexColumnWidth(width * 0.5),
+                        1: FlexColumnWidth(width * 0.8),
+                        2: FlexColumnWidth(width * 0.5),
+                        3: FlexColumnWidth(width * 0.5),
+                        4: FlexColumnWidth(width * 0.5),
+                        5: FlexColumnWidth(width * 0.5),
+                        6: FlexColumnWidth(width * 0.5),
+                        7: FlexColumnWidth(width * 0.8),
 
                       },
                       border: TableBorder.all(),
@@ -173,14 +171,14 @@ class F037 extends StatelessWidget {
                   ),
                   Table(
                     columnWidths: {
-                      0: FlexColumnWidth(x * 0.5),
-                      1: FlexColumnWidth(x * 0.8),
-                      2: FlexColumnWidth(x * 0.5),
-                      3: FlexColumnWidth(x * 0.5),
-                      4: FlexColumnWidth(x * 0.5),
-                      5: FlexColumnWidth(x * 0.5),
-                      6: FlexColumnWidth(x * 0.5),
-                      7: FlexColumnWidth(x * 0.8),
+                      0: FlexColumnWidth(width * 0.5),
+                      1: FlexColumnWidth(width * 0.8),
+                      2: FlexColumnWidth(width * 0.5),
+                      3: FlexColumnWidth(width * 0.5),
+                      4: FlexColumnWidth(width * 0.5),
+                      5: FlexColumnWidth(width * 0.5),
+                      6: FlexColumnWidth(width * 0.5),
+                      7: FlexColumnWidth(width * 0.8),
                     },
                     border: TableBorder.all(),
                     children:  [

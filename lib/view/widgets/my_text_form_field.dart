@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 class MyTextFormField extends StatelessWidget {
   TextEditingController controller;
 
-  MyTextFormField({required this.controller, this.hintText,this.hintStyle});
-
   String? hintText;
   TextStyle? hintStyle;
+  Icon? suffixIcon;
+
+  MyTextFormField({required this.controller, this.hintText,this.hintStyle,this.suffixIcon});
+
   @override
   Widget build(BuildContext context) {
     return TextFormField(
@@ -15,7 +17,8 @@ class MyTextFormField extends StatelessWidget {
         isDense: true,
         border: InputBorder.none,
         hintText: hintText,
-        hintStyle: hintStyle
+        hintStyle: hintStyle,
+        suffixIcon: suffixIcon,
       ),
     );
   }
