@@ -7,6 +7,7 @@ import 'package:mytask1/view/pages/f038/f038.dart';
 import 'package:mytask1/view/pages/f039/f039.dart';
 import 'package:mytask1/view/pages/f040/f040.dart';
 import 'package:mytask1/view/pages/f041/f041.dart';
+import 'package:mytask1/view/pages/f042/f042.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:responsive_framework/utils/scroll_behavior.dart';
 
@@ -47,7 +48,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home:F040(),
+        home:F042(),
       ),
     );
   }
