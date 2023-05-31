@@ -7,14 +7,19 @@ class MyTextFormField extends StatelessWidget {
   TextStyle? hintStyle;
   Icon? suffixIcon;
   TextInputType? textInputType;
-  int? hintMaxLine ;
-  MyTextFormField({required this.controller, this.hintText,this.hintStyle,this.suffixIcon,this.textInputType,this.hintMaxLine});
+  int? hintMaxLine;
+
+  TextDirection? textDirection;
+
+  MyTextFormField(
+      {required this.controller, this.hintText, this.hintStyle, this.suffixIcon, this.textInputType, this.hintMaxLine, this.textDirection});
 
   @override
   Widget build(BuildContext context) {
     return TextFormField(
       keyboardType: textInputType,
-      decoration:  InputDecoration(
+      textDirection: textDirection,
+      decoration: InputDecoration(
         contentPadding: EdgeInsets.symmetric(vertical: 10),
         isDense: true,
         border: InputBorder.none,

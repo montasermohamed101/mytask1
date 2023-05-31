@@ -242,7 +242,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Omission',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -277,7 +277,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Wrong Rate',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -312,7 +312,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Clinical',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -352,7 +352,7 @@ class F040 extends StatelessWidget {
                                     title:
                                         'improper Dose(over,under,extra dose)',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -387,7 +387,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Wrong Duration',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -422,7 +422,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Monitoring Error-Drug-Drug',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -461,7 +461,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Wrong Patient',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -496,7 +496,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Wrong Dosage Form',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -531,7 +531,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Monitoring Error-Drug-Food',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -570,7 +570,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Wrong Drug',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -605,7 +605,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Wrong Time of administration',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -640,7 +640,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Monitoring Error-Drug-Disease',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -679,7 +679,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Wrong strength/ concentration',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -714,7 +714,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Wrong Administration Technique',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -750,7 +750,7 @@ class F040 extends StatelessWidget {
                                     title:
                                         'Other ________________________________',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -789,7 +789,7 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Wrong Route',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
@@ -824,14 +824,14 @@ class F040 extends StatelessWidget {
                                 TextCheckbox(
                                     title: 'Deteriorated/ Expired Medication',
                                     color: Colors.black,
-                                    size: 12),
+                                    fontSize: 12),
                               ],
                             ),
                           ),
                           TextCheckbox(
                             title: '_____________________________________',
                             color: Colors.black,
-                            size: 12,
+                            fontSize: 12,
                           ),
                         ],
                       ),
@@ -852,7 +852,7 @@ class F040 extends StatelessWidget {
                         f040Controller.update();
                       },
                     ),
-                    TextCheckbox(title: 'Yes', color: Colors.black, size: 12),
+                    TextCheckbox(title: 'Yes', color: Colors.black, fontSize: 12),
                     Checkbox(
                       checkColor: Colors.white,
                       activeColor: Colors.red,
@@ -863,7 +863,7 @@ class F040 extends StatelessWidget {
                         f040Controller.update();
                       },
                     ),
-                    TextCheckbox(title: 'No', color: Colors.black, size: 12),
+                    TextCheckbox(title: 'No', color: Colors.black, fontSize: 12),
                   ],
                 ),
                 MyTitleText(
@@ -883,7 +883,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Physician ordering',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                     Checkbox(
                       value: f040Controller.dispensing,
                       onChanged: (val) {
@@ -894,7 +894,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Dispensing and Delivery',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                     Checkbox(
                       value: f040Controller.monitoringLevel,
                       onChanged: (val) {
@@ -905,7 +905,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Monitoring (Level/allergy/drug-food/clinical)',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                   ],
                 ),
                 Row(
@@ -920,7 +920,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'order Entry & Verification',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                     Checkbox(
                       value: f040Controller.administration,
                       onChanged: (val) {
@@ -931,7 +931,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Administration ',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                   ],
                 ),
 
@@ -1002,7 +1002,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Tablet/ Capsule/ Oral Liquid',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                     Checkbox(
                       value: f040Controller.cream,
                       onChanged: (val) {
@@ -1013,7 +1013,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Cream/ Ointment/ Gel/ Past',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                     Checkbox(
                       value: f040Controller.aerosol,
                       onChanged: (val) {
@@ -1024,7 +1024,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Aerosol/Inhalation/ Drops ',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                   ],
                 ),
                 Row(
@@ -1039,7 +1039,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Injectable (IV/ IM/ IT/ SC)',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                     Checkbox(
                       value: f040Controller.suppository,
                       onChanged: (val) {
@@ -1050,7 +1050,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Suppository',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                     Checkbox(
                       value: f040Controller.other2,
                       onChanged: (val) {
@@ -1061,7 +1061,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Other _____________________________',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                   ],
                 ),
                 //Todo :Route of Administration:
@@ -1084,7 +1084,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Oral',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                     Checkbox(
                       value: f040Controller.nose,
                       onChanged: (val) {
@@ -1095,7 +1095,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Eye/ Ear/ Nose',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                     Checkbox(
                       value: f040Controller.inhalation,
                       onChanged: (val) {
@@ -1106,7 +1106,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Inhalation/ Aerosol',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                   ],
                 ),
                 Row(
@@ -1121,7 +1121,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Injectable (IV/ IM/ IT/ SC)',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                     Checkbox(
                       value: f040Controller.rectal,
                       onChanged: (val) {
@@ -1132,7 +1132,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Topical Skin/ Rectal',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                     Checkbox(
                       value: f040Controller.other3,
                       onChanged: (val) {
@@ -1143,7 +1143,7 @@ class F040 extends StatelessWidget {
                     TextCheckbox(
                         title: 'Other _______________________',
                         color: Colors.black,
-                        size: 12),
+                        fontSize: 12),
                   ],
                 ),
                 const SizedBox(height: 10),

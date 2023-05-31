@@ -5,18 +5,23 @@ class TextCheckbox extends StatelessWidget {
   String title;
   Color color;
   TextAlign? textAlign;
-  double? size;
-  TextCheckbox({required this.title,required this.color,this.textAlign,this.size});
+  double? fontSize;
+  TextDirection? textDirection;
+
+
+  TextCheckbox({required this.title,required this.color,this.textAlign,this.fontSize,this.textDirection});
 
   @override
   Widget build(BuildContext context) {
     return  Expanded(
+
       child: Text(
         title,
+        textDirection: textDirection,
         style: TextStyle(
           color: color,
-          fontSize: size,
-          fontWeight: FontWeight.bold,
+          fontSize: fontSize,
+          fontWeight: FontWeight.w600,
         ),
         textAlign: textAlign,
       ),
