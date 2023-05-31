@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mytask1/controller/f038_controller/f038_controller.dart';
 
-import '../../widgets/my_color_title/my_color_title.dart';
-import '../../widgets/my_text_form_field.dart';
-import '../../widgets/my_title_text.dart';
-import '../../widgets/padding_title_text.dart';
+import '../../widgets/custome_text/my_color_title.dart';
+import '../../widgets/custom_textform_field/my_text_form_field.dart';
+import '../../widgets/custome_text/my_title_text.dart';
+import '../../widgets/custome_text/padding_title_text.dart';
 
 class F038 extends StatelessWidget {
   var f038Controller = Get.put(F038Controller());
@@ -59,6 +59,7 @@ class F038 extends StatelessWidget {
                     child: MyTitleText(
                       title:
                           'Wound Care/Dressing Documentation (Continuation Sheet) ',
+                      fontSize: 17,
                       color: Colors.black,
                     )),
 
@@ -676,9 +677,11 @@ class F038 extends StatelessWidget {
                   children: [
                     Expanded(
                         child: MyTitleText(
+                            fontSize: 17,
                             title: 'DEBRIDEMENT TYPE', color: Colors.black)),
                     Expanded(
                         child: MyTitleText(
+                            fontSize: 17,
                             title: 'Autolytic-Enzymatic-Mechanical-Surgical',
                             color: Colors.black)),
                     Expanded(
@@ -688,10 +691,12 @@ class F038 extends StatelessWidget {
                         MyTitleText(
                             title:
                                 'F038-THHC Wound Care Dressing Documentation',
+                            fontSize: 17,
                             color: Colors.black),
                         MyTitleText(
                             title:
                                 'THHC-030 Wound Care Management at Home Health Care',
+                            fontSize: 17,
                             color: Colors.black),
                       ],
                     )),
@@ -734,7 +739,8 @@ class F038 extends StatelessWidget {
                 Align(
                     alignment: Alignment.centerLeft,
                     child: MyTitleText(
-                      title: 'Formal Wound Assessment ',
+                      title: 'Formal Wound Assessment',
+                      fontSize: 17,
                       color: Colors.black,
                     )),
                 Align(
@@ -742,12 +748,14 @@ class F038 extends StatelessWidget {
                     child: MyTitleText(
                       title:
                           'Complete Initial Assessment and Reassess if wound bed changes OR 7-10 days intervals',
+                      fontSize: 17,
                       color: Colors.black,
                     )),
                 Align(
                     alignment: Alignment.center,
                     child: MyTitleText(
                       title: 'Use separate column for individual wound',
+                      fontSize: 17,
                       color: Colors.black,
                     )),
 
@@ -766,6 +774,7 @@ class F038 extends StatelessWidget {
                               title: '# of Wound',
                               textAlign: TextAlign.center,
                               color: Colors.white,
+                              fontSize: 17,
                             ),
                           ),
                         ),
@@ -821,6 +830,7 @@ class F038 extends StatelessWidget {
                           child: MyTitleText(
                             title: 'Date of Assessment',
                             color: Colors.black,
+                            fontSize: 17,
                             textAlign: TextAlign.center,
                           ),
                         ),
@@ -884,6 +894,7 @@ class F038 extends StatelessWidget {
                             title: 'Analgesia pre dressing',
                             color: Colors.black,
                             textAlign: TextAlign.center,
+                            fontSize: 17,
                           ),
                         ),
                         TableCell(
@@ -939,6 +950,7 @@ class F038 extends StatelessWidget {
                             title: 'Grade of pressure ulcer',
                             color: Colors.black,
                             textAlign: TextAlign.center,
+                            fontSize: 17,
                           ),
                         ),
                         TableCell(
@@ -1001,6 +1013,7 @@ class F038 extends StatelessWidget {
                             title: 'Wound Dimensions',
                             color: Colors.black,
                             textAlign: TextAlign.center,
+                            fontSize: 17,
                           ),
                         ),
                         TableCell(
@@ -1060,6 +1073,7 @@ class F038 extends StatelessWidget {
                         TableCell(
                           verticalAlignment: TableCellVerticalAlignment.middle,
                           child: MyTitleText(
+                            fontSize: 17,
                             title: 'Length',
                             color: Colors.black,
                             textAlign: TextAlign.center,
@@ -1115,6 +1129,7 @@ class F038 extends StatelessWidget {
                         TableCell(
                           verticalAlignment: TableCellVerticalAlignment.middle,
                           child: MyTitleText(
+                            fontSize: 17,
                             title: 'Width',
                             color: Colors.black,
                             textAlign: TextAlign.center,
@@ -1170,6 +1185,7 @@ class F038 extends StatelessWidget {
                         TableCell(
                           verticalAlignment: TableCellVerticalAlignment.middle,
                           child: MyTitleText(
+                            fontSize: 17,
                             title: 'Depth',
                             color: Colors.black,
                             textAlign: TextAlign.center,
@@ -1225,6 +1241,7 @@ class F038 extends StatelessWidget {
                         TableCell(
                           verticalAlignment: TableCellVerticalAlignment.middle,
                           child: MyTitleText(
+                            fontSize: 17,
                             title: 'Shape',
                             color: Colors.black,
                             textAlign: TextAlign.center,
@@ -1280,6 +1297,7 @@ class F038 extends StatelessWidget {
                         TableCell(
                           verticalAlignment: TableCellVerticalAlignment.middle,
                           child: MyTitleText(
+                            fontSize: 17,
                             title: 'Is wound undermining',
                             color: Colors.black,
                             textAlign: TextAlign.center,
@@ -1395,6 +1413,7 @@ class F038 extends StatelessWidget {
                         TableCell(
                           verticalAlignment: TableCellVerticalAlignment.middle,
                           child: MyTitleText(
+                            fontSize: 17,
                             title: 'Photography',
                             color: Colors.black,
                             textAlign: TextAlign.center,
@@ -2855,10 +2874,12 @@ class F038 extends StatelessWidget {
                       child: Column(
                         children: [
                           MyTitleText(
+                            fontSize: 17,
                             title: 'F038-THHC Wound Care Dressing Documentation',
                             color: Colors.black,
                           ),
                           MyTitleText(
+                            fontSize: 17,
                             title: 'THHC-030 Wound Care Management at Home Health Care',
                             color: Colors.black,
                           ),

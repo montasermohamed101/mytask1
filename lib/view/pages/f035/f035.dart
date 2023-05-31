@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mytask1/controller/f035_controller/f035_controller.dart';
 
-import '../../widgets/my_color_title/my_color_title.dart';
-import '../../widgets/my_text_form_field.dart';
+import '../../widgets/custome_text/my_color_title.dart';
+import '../../widgets/custom_textform_field/my_text_form_field.dart';
 
 class F035 extends StatelessWidget {
 

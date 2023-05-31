@@ -5,7 +5,8 @@ class MyTitleText extends StatelessWidget {
   String title;
   Color color;
   TextAlign? textAlign;
-  MyTitleText({required this.title,required this.color,this.textAlign});
+  double fontSize;
+  MyTitleText({required this.title,required this.color,this.textAlign,required,required this.fontSize});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +14,7 @@ class MyTitleText extends StatelessWidget {
       title,
     style: TextStyle(
     color: color,
-    fontSize: 17,
+    fontSize: fontSize,
     fontWeight: FontWeight.bold,
     ),
       textAlign: textAlign,

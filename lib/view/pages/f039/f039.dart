@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mytask1/controller/f039_controller/f039_controller.dart';
-import 'package:mytask1/view/widgets/padding_title_text.dart';
+import 'package:mytask1/view/widgets/custome_text/padding_title_text.dart';
 
-import '../../widgets/my_color_title/my_color_title.dart';
-import '../../widgets/my_text_form_field.dart';
-import '../../widgets/my_title_text.dart';
+import '../../widgets/custome_text/my_color_title.dart';
+import '../../widgets/custom_textform_field/my_text_form_field.dart';
+import '../../widgets/custome_text/my_title_text.dart';
 
 class F039 extends StatelessWidget {
 
@@ -34,7 +34,7 @@ class F039 extends StatelessWidget {
                                  'assets/ic_app.jpg',
                                  height: 70,
                                ),
-                               MyTitleText(title: 'Oxygen Content',color: Colors.black,)
+                               MyTitleText(title: 'Oxygen Content',color: Colors.black, fontSize: 17,)
                              ],
                            ),
                          ),
@@ -45,7 +45,7 @@ class F039 extends StatelessWidget {
                                  'assets/ic_app.jpg',
                                  height: 70,
                                ),
-                               MyTitleText(title: 'Oxygen Content',color: Colors.black,)
+                               MyTitleText(title: 'Oxygen Content',color: Colors.black, fontSize: 17,)
                              ],
                            ),
                          ),
@@ -56,7 +56,7 @@ class F039 extends StatelessWidget {
                                  'assets/ic_app.jpg',
                                  height: 70,
                                ),
-                               MyTitleText(title: 'Oxygen Content',color: Colors.black,)
+                               MyTitleText(title: 'Oxygen Content',color: Colors.black, fontSize: 17,)
                              ],
                            ),
                          ),
@@ -71,7 +71,7 @@ class F039 extends StatelessWidget {
                                   children: [
                                    Row(
                                      children: [
-                                     MyTitleText(title: 'Dept:', color: Colors.black),
+                                     MyTitleText(title: 'Dept:', color: Colors.black, fontSize: 17,),
                                      Expanded(child:   MyTextFormField(controller: f039Controller.firstDeptController,
                                        hintText: ':____________',
                                      ),),
@@ -79,7 +79,7 @@ class F039 extends StatelessWidget {
                                    ),
                                    Row(
                                      children: [
-                                     MyTitleText(title: 'Month/Year:', color: Colors.black),
+                                     MyTitleText(title: 'Month/Year:', color: Colors.black, fontSize: 17,),
                                      Expanded(child:   MyTextFormField(controller: f039Controller.firstmonth_yearController,
                                        hintText: ':____________',
                                      ),),
@@ -96,7 +96,7 @@ class F039 extends StatelessWidget {
                                   children: [
                                     Row(
                                       children: [
-                                        MyTitleText(title: 'Dept:', color: Colors.black),
+                                        MyTitleText(title: 'Dept:', color: Colors.black, fontSize: 17,),
                                         Expanded(child:   MyTextFormField(controller: f039Controller.secondDeptController,
                                           hintText: ':____________',
                                         ),),
@@ -104,7 +104,7 @@ class F039 extends StatelessWidget {
                                     ),
                                     Row(
                                       children: [
-                                        MyTitleText(title: 'Month/Year:', color: Colors.black),
+                                        MyTitleText(title: 'Month/Year:', color: Colors.black, fontSize: 17,),
                                         Expanded(child:   MyTextFormField(controller: f039Controller.secondmonth_yearController,
                                           hintText: ':____________',
                                         ),),
@@ -121,7 +121,7 @@ class F039 extends StatelessWidget {
                                   children: [
                                     Row(
                                       children: [
-                                        MyTitleText(title: 'Dept:', color: Colors.black),
+                                        MyTitleText(title: 'Dept:', color: Colors.black, fontSize: 17,),
                                         Expanded(child:   MyTextFormField(controller: f039Controller.thirdDeptController,
                                           hintText: ':____________',
                                         ),),
@@ -129,7 +129,7 @@ class F039 extends StatelessWidget {
                                     ),
                                     Row(
                                       children: [
-                                        MyTitleText(title: 'Month/Year:', color: Colors.black),
+                                        MyTitleText(title: 'Month/Year:', color: Colors.black, fontSize: 17,),
                                         Expanded(child:   MyTextFormField(controller: f039Controller.thirdmonth_yearController,
                                           hintText: ':____________',
                                         ),),
@@ -2648,10 +2648,12 @@ class F039 extends StatelessWidget {
                          MyTitleText(
                            title: 'F039-THHC COMPRESS GAS CYLINDER STORAGE AND HANDLING',
                            color: Colors.black,
+                           fontSize: 17,
                          ),
                          MyTitleText(
                            title: 'THHC-031 COMPRESS GAS CYLINDER STORAGE AND HANDLING',
                            color: Colors.black,
+                           fontSize: 17,
                          ),
                        ],
                      ),),

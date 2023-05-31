@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mytask1/controller/f036_controller/f036_controller.dart';
-import 'package:mytask1/view/widgets/my_text_form_field.dart';
+import 'package:mytask1/view/widgets/custom_textform_field/my_text_form_field.dart';
 
 class F036 extends StatelessWidget {
   var controller = Get.put(F036Controller());

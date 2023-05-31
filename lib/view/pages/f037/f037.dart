@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:mytask1/controller/f037_controller/f037_controller.dart';
-import 'package:mytask1/view/widgets/my_text_form_field.dart';
+import 'package:mytask1/view/widgets/custom_textform_field/my_text_form_field.dart';
 
-import '../../widgets/my_color_title/my_color_title.dart';
-import '../../widgets/my_title_text.dart';
+import '../../widgets/custome_text/my_color_title.dart';
+import '../../widgets/custome_text/my_title_text.dart';
 
 class F037 extends StatelessWidget {
 
@@ -28,6 +28,7 @@ class F037 extends StatelessWidget {
                    Align(
                     alignment: Alignment.center,
                     child:MyTitleText(title:'Temperature Monitoring Chart for Medication Transportation',
+                      fontSize: 17,
                       color: Colors.grey,
                     )
                   ),
